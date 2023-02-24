@@ -1,8 +1,15 @@
+import Sidebar from "../Sidebar/Sidebar";
+import "./Welcome.scss"
 
-
-export default function Welcome () {
+function Welcome() {
 
   return (
-    <h1>Hello</h1>
+    <div class="main">
+      <Sidebar />
+      <p>Testing testing</p>
+
+    </div>
   )
 }
+
+export default Welcome;
