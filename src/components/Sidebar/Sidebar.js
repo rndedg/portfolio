@@ -11,8 +11,9 @@ import ListItemText from '@mui/material/ListItemText';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import { useState } from 'react';
+import { Divider } from '@mui/material';
 
-const drawerWidth = 180;
+const drawerWidth = 170;
 
 function Sidebar(props) {
   const { window } = props;
@@ -24,10 +25,10 @@ function Sidebar(props) {
 
   const drawer = (
     <div>
-      <Toolbar />
-      <List>
+      <Toolbar sx={{backgroundColor:"#014c80"}}/>
+      <List sx={{backgroundColor:"#014c80"}}>
         {['About me', 'Projects', 'Goals', 'Contact'].map((text, index) => (
-          <ListItem key={text} disablePadding>
+          <ListItem key={text} disablePadding sx={{color:"#c6e6f2"}}>
             <ListItemButton>
               <ListItemText primary={text} />
             </ListItemButton>
@@ -35,8 +36,12 @@ function Sidebar(props) {
         ))}
       </List>
     
+      <Divider sx={{backgroundColor:"black"}}/>
+
+
     </div>
   );
+
 
   const container = window !== undefined ? () => window().document.body : undefined;
 
@@ -47,7 +52,9 @@ function Sidebar(props) {
         position="fixed"
         sx={{
           width: { sm: `calc(100% - ${drawerWidth}px)` },
+          height: "7em",
           ml: { sm: `${drawerWidth}px` },
+          backgroundColor:"#014c80"
         }}
       >
         <Toolbar>
@@ -59,15 +66,14 @@ function Sidebar(props) {
             sx={{ mr: 2, display: { sm: 'none' } }}
           >
           </IconButton>
-          <Typography variant="h6" noWrap component="div">
+          <Typography variant="h4" noWrap component="div" sx={{color:"#c6e6f2"}}>
             Gordon J.A. Letkeman
           </Typography>
         </Toolbar>
       </AppBar>
       <Box
         component="nav"
-        sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
-        aria-label="mailbox folders"
+        sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 }, backgroundColor:"#014c80" }}
       >
         {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
         <Drawer
@@ -80,20 +86,22 @@ function Sidebar(props) {
           }}
           sx={{
             display: { xs: 'block', sm: 'none' },
-            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth }, backgroundColor:"#014c80"
           }}
         >
           {drawer}
+          <img className="logo" src="https://github.com/rndedg/portfolio/blob/master/assets/logo.png?raw=true" alt="GL logo" width="100%" />
         </Drawer>
         <Drawer
           variant="permanent"
           sx={{
             display: { xs: 'none', sm: 'block' },
-            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth }, backgroundColor:"#014c80"
           }}
           open
         >
           {drawer}
+          <img className="logo" src="https://github.com/rndedg/portfolio/blob/master/assets/logo.png?raw=true" alt="GL logo" width="100%" />
         </Drawer>
       </Box>
       
