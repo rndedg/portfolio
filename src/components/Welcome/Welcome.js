@@ -6,8 +6,6 @@ function Welcome() {
   return (
     <div class="main">
       <Sidebar />
-      <p>Testing testing</p>
-
     </div>
   )
 }
