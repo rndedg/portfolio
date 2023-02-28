@@ -1,9 +1,16 @@
 @import "src/_constant.scss";
 
 
+
 .contact-body {
   display: flex;
 
+  .contact-info {
+    margin-top: 5%;
+    #page-title {
+      margin-bottom: 2em;
+    }
+  }
 
   .contact-sidebar {
     position: fixed;

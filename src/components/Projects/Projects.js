@@ -16,6 +16,7 @@ function Projects() {
               <h3>
                 <Link to="https://github.com/BrianKendalBucek/budgie">Budgie</Link>
               </h3>
+              <img src="https://github.com/BrianKendalBucek/budgie/blob/main/assets/budgie-icon.png?raw=true" alt="budgie logo"></img>
               <p>The final project Gord created for Lighthouse Labs. It is a multiple-currency budgeting app for those traveling or living abroad. He mainly focused on the frontend work, which allowed him to try using Material UI and React Router for the first time. The group is continuing work on the app and hopes to one day deploy it for anyone to use.</p>
             </div>
             <div id="proj-2">

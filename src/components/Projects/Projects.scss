@@ -11,22 +11,51 @@
   }
 
   .projects-info {
-    // margin-top: 5em;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 70%;
+    margin-top: 5%;
 
-    #proj-1, #proj-3 {
-      display: flex;
-      justify-content: space-between;
-
+    img {
+      width: 10em;
     }
 
-    #proj-2 {
+    #proj-1 {
+      margin-top: 2em;
       display: flex;
-      justify-content: flex-end;
+      justify-content: space-evenly;
+      h3 {
+        font-size: 2em;
+      }
+       p{
+        width: 30%;
+       }
+    }
 
+    #proj-3 {
+      margin-top: 5em;
+      display: flex;
+      justify-content: space-evenly;
+      h3 {
+        font-size: 2em;
+      }
+       p{
+        width: 30%;
+       }
+    }
+
+
+    #proj-2 {
+      margin-top: 5em;
+      display: flex;
+      justify-content: space-evenly;
+      h3 {
+        font-size: 2em;
+      }
+       p{
+        width: 30%;
+       }
     }
   }
   #page-title {
