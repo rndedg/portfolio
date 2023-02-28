@@ -4,6 +4,13 @@
 .about-body {
   display: flex;
 
+  .about-info {
+    margin-top: 5em;
+
+    #page-title {
+      margin-bottom: 2em;
+    }
+  }
 
   .about-sidebar {
     position: fixed;

@@ -7,7 +7,7 @@ function Sidebar() {
       <div className="sidebar-left">
         <ul className="links">
           <Link to={"/about"}>About Me</Link>
-          <Link to={"/project"}>Projects</Link>
+          <Link to={"/projects"}>Projects</Link>
           <Link to={"/contact"}>Contact</Link>
         </ul>
         <img

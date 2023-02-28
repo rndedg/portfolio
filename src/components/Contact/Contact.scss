@@ -1,0 +1,12 @@
+@import "src/_constant.scss";
+
+
+.contact-body {
+  display: flex;
+
+
+  .contact-sidebar {
+    position: fixed;
+    left: 0;
+  }
+}
