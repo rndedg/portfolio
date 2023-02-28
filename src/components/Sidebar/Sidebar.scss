@@ -1,20 +1,8 @@
 @import "src/_constant.scss";
 
-// text color:"#c6e6f2"
-// bg #014c80
-
 .sidebar-main{ 
 
-
-  .sidebar-top {
-    background-color: $containerBG;
-    color: $containerTEXT;
-    height: 4em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
+  
   .sidebar-left {
     background-color: $containerBG;
     color: $containerTEXT;
@@ -23,7 +11,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+  
     
     .links {
       margin-top: 10em;

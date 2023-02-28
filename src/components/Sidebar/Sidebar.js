@@ -4,9 +4,6 @@ import { Link } from "react-router-dom";
 function Sidebar() {
   return (
     <div className="sidebar-main">
-      <div className="sidebar-top">
-        <h1>Gordon J.A. Letkeman</h1>
-      </div>
       <div className="sidebar-left">
         <ul className="links">
           <Link to={"/about"}>About Me</Link>

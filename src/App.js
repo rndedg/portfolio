@@ -3,9 +3,8 @@ import { useLayoutEffect } from "react";
 import Welcome from "./components/Welcome/Welcome.js";
 import { Route, Routes } from "react-router";
 import Error from "./components/Error/Error";
-import About from "./About/About";
-import Projects from "./Projects/Projects";
-import Contact from "./Contact/Contact";
+import About from "./components/About/About";
+
 
 function App() {
   useLayoutEffect(() => {
@@ -16,8 +15,8 @@ function App() {
     <Routes>
       <Route exact path="/" element={<Welcome />}></Route>
       <Route path="/about" element={<About />}></Route>
-      <Route path="/projects" element={<Projects />}></Route>
-      <Route path="/contact" element={<Contact />}></Route>
+      {/* <Route path="/projects" element={<Projects />}></Route>
+      <Route path="/contact" element={<Contact />}></Route> */}
       <Route path="*" element={<Error />}></Route>
     </Routes>
   );

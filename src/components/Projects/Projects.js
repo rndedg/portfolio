@@ -1,8 +1,8 @@
 
 import Sidebar from "../components/Sidebar/Sidebar";
-import "./About.scss"
+import "./Projects.scss"
 
-function About() {
+function Projects() {
 
   return (
     <div class="main">
@@ -11,4 +11,4 @@ function About() {
   )
 }
 
-export default About;
+export default Projects;

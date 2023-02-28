@@ -1,0 +1,11 @@
+@import "src/_constant.scss";
+
+.sidebar-top {
+  background-color: $containerBG;
+  color: $containerTEXT;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
