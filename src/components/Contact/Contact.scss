@@ -1,0 +1,30 @@
+@import "src/_constant.scss";
+
+
+.contact-body {
+  display: flex;
+
+  .contact-info {
+    margin-top: 5%;
+    #page-title {
+      margin-bottom: 2em;
+    }
+  }
+
+  p {
+    margin-bottom: 2em;
+  }
+
+  li {
+    margin-bottom: 1em;
+  }
+
+  a {
+    margin-left: 1em;
+  }
+
+  .contact-sidebar {
+    position: fixed;
+    left: 0;
+  }
+}
