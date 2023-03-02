@@ -17,7 +17,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const pages = ["About Me", "Projects", "Contact"];
 
@@ -63,7 +63,7 @@ function ResponsiveAppBar() {
             {pages.map((page) => (
               <Button
                 key={page}
-                onClick={() => navigate(`/${page}`, { replace: true })}
+                onClick={() => setTimeout(() => {navigate(`/${page}`, { replace: true })}, 250)}
                 sx={{ my: 2, color: "white", display: "block", marginRight: "20px" }}
               >
                 {page} 
