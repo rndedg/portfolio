@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import Header from "../Header/Header";
 import Sidebar from "../Sidebar/Sidebar";
+
 import "./Contact.scss"
 
 function Contact() {
 
   return (
-    <div class="contact-main">
+    <div className="contact-main">
       <Header />      
       <div className="contact-body">
         <Sidebar className="contact-sidebar"/>

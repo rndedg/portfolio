@@ -5,7 +5,7 @@ import "./Welcome.scss"
 function Welcome() {
 
   return (
-    <div class="welcome-main">
+    <div className="welcome-main">
       <Header />      
       <div className="welcome-body">
         <Sidebar className="welcome-sidebar"/>

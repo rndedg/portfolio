@@ -6,7 +6,7 @@ import "./Projects.scss"
 function Projects() {
 
   return (
-    <div class="projects-main">
+    <div className="projects-main">
       <Header />      
       <div className="projects-body">
         <Sidebar className="projects-sidebar"/>

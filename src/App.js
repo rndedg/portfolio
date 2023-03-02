@@ -18,9 +18,9 @@ function App() {
   return (
     <Routes>
       <Route exact path="/" element={<Welcome />}></Route>
-      <Route path="/about" element={<About />}></Route>
-      <Route path="/projects" element={<Projects />}></Route>
-      <Route path="/contact" element={<Contact />}></Route>
+      <Route path="/About me" element={<About />}></Route>
+      <Route path="/Projects" element={<Projects />}></Route>
+      <Route path="/Contact" element={<Contact />}></Route>
       <Route path="*" element={<Error />}></Route>
     </Routes>
   );

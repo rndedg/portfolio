@@ -5,7 +5,7 @@ import "./About.scss"
 function About() {
 
   return (
-    <div class="about-main">
+    <div className="about-main">
       <Header />      
       <div className="about-body">
         <Sidebar className="about-sidebar"/>
