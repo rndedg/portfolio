@@ -11,8 +11,8 @@ import Contact from "./components/Contact/Contact";
 function App() {
   useLayoutEffect(() => {
     document.body.style.backgroundColor = "#c3ccdb";
-    document.body.style.backgroundImage = ""
-    
+    document.body.style.backgroundImage = "";
+    // document.body.style.fontFamily = "Garamond";
   });
 
   return (

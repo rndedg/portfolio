@@ -1,0 +1,26 @@
+@import "src/_constant.scss";
+
+
+.projects-body {
+  display: flex;
+
+  #page-title {
+    margin-top: 8%;
+  }
+
+  .projects-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5em;
+    
+
+    #budgie-logo {
+      width: 10em;
+    }
+  }
+
+  .projects-sidebar {
+    position: fixed;
+    left: 0;
+  }
+}
