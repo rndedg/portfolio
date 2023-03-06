@@ -6,13 +6,52 @@
 
   #page-title {
     margin-top: 8%;
+    margin-bottom: 10%;
   }
 
   .projects-info {
     display: flex;
     flex-direction: column;
-    margin-bottom: 5em;
+    margin-left: 20em;
+
+      #proj-desc {
+        width: 50em;
+      }
+
+    #proj-1 {
+      align-self: center;
+      margin-bottom: 5em;
+
+      .proj-left {
+        width: 15em;
+        float: left;
+      }
+    }
     
+
+
+    #proj-2 {
+      align-self: center;
+      margin-bottom: 5em;
+
+      .proj-right {
+        width: 15em;
+        float: right;
+      }
+      
+    }
+    
+
+
+    #proj-3 {
+      align-self: center;
+      margin-bottom: 5em;
+
+      .proj-left {
+            width: 15em;
+            float: left;
+      }
+    }
 
     #budgie-logo {
       width: 10em;
