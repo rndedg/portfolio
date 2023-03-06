@@ -1,12 +1,38 @@
 @import "src/_constant.scss";
 
 
-.welcome-body {
+.welcome-main {
   display: flex;
-
+  justify-content: center;
 
   .welcome-sidebar {
     position: fixed;
     left: 0;
+  }
+
+  .welcome-body {
+    display: flex;
+
+    h1 {
+      margin-bottom: 2em;
+      align-self: center;
+    }
+
+    p {
+      width: 65%;
+    }
+
+      #gord-fire {
+        width: 30em;
+        height: 30em;
+        margin-top: 10em;
+        margin-right: 15em;
+      }
+
+    .welcome-left {
+      margin-top: 8em;
+
+    }
+
   }
 }

@@ -13,7 +13,7 @@ function Projects() {
         <div>
           <h1 id="page-title">Current and Past Projects</h1>
           <div className="projects-info">
-            
+
             <div id="proj-1">
               <div className="proj-left">
                 <h2>
@@ -45,7 +45,11 @@ function Projects() {
                     Okee-Dok-Eats
                   </Link>                  
                 </h2>
-
+                <img
+                  id="okee-logo"
+                  src="https://github.com/Sszyh/Okee-Dok-Eats/blob/master/images/winking.gif?raw=true"
+                  alt="Okee-Dok-Eats logo winking"
+                ></img>
                 {/* IMAGE */}
               </div>
               <p id="proj-desc">
