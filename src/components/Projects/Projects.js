@@ -50,7 +50,6 @@ function Projects() {
                   src="https://github.com/Sszyh/Okee-Dok-Eats/blob/master/images/winking.gif?raw=true"
                   alt="Okee-Dok-Eats logo winking"
                 ></img>
-                {/* IMAGE */}
               </div>
               <p id="proj-desc">
                 The mid-term project for Lighthouse Labs. It is a food ordering
@@ -60,9 +59,7 @@ function Projects() {
                 Twilio to send the restaurant an SMS notification of a new order
                 and notify the user that the order was received.
               </p>
-              <h2>
 
-              </h2>
             </div>
             <div id="proj-3">
               <div className="proj-left"> 
