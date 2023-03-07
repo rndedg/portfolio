@@ -25,12 +25,7 @@ function ResponsiveAppBar() {
             href="/"
             sx={{
               mr: 2,
-              display: { xs: "none", md: "flex" },
-              fontFamily: "monospace",
-              fontWeight: 700,
-              letterSpacing: ".3rem",
-              color: "inherit",
-              textDecoration: "none",
+              display: { xs: "none", md: "flex" }
             }}
           >
             <Box
@@ -52,7 +47,7 @@ function ResponsiveAppBar() {
               <Button
                 key={page}
                 onClick={() => setTimeout(() => {navigate(`/${page}`, { replace: true })}, 250)}
-                sx={{ my: 2, color: "white", display: "block", marginRight: "20px", backgroundColor: "#e0e7f352" }}
+                sx={{ my: 2, color: "white", display: "block", marginRight: "2em", backgroundColor: "#e0e7f352", marginLeft: "2em" }}
               >
                 {page} 
               </Button>

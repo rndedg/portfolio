@@ -5,11 +5,35 @@
   display: flex;
   font-family: $font;
 
+  #about-title {
+    margin-top: 8%;
+    margin-bottom: 5%;
+  }
+
   .about-info {
     margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+
     #page-title {
       margin-bottom: 2em;
     }
+
+    #gord-bass {
+      width: 25em;
+      height: 25em;
+      margin-left: 15em;
+    }
+
+    .about-writeup {
+      display: flex;
+      flex-direction: column;
+
+      p {
+        width: 45em
+      }      
+    }
+
   }
 
   .about-sidebar {

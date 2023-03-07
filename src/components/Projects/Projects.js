@@ -13,7 +13,6 @@ function Projects() {
         <div>
           <h1 id="page-title">Current and Past Projects</h1>
           <div className="projects-info">
-
             <div id="proj-1">
               <div className="proj-left">
                 <h2>
@@ -24,7 +23,8 @@ function Projects() {
                 <img
                   id="budgie-logo"
                   src="https://github.com/BrianKendalBucek/budgie/blob/main/assets/budgie-icon.png?raw=true"
-                  alt="budgie logo"></img>
+                  alt="budgie logo"
+                ></img>
               </div>
 
               <p id="proj-desc">
@@ -37,13 +37,12 @@ function Projects() {
               </p>
             </div>
 
-
             <div id="proj-2">
               <div className="proj-right">
                 <h2>
                   <Link to="https://github.com/Sszyh/Okee-Dok-Eats">
                     Okee-Dok-Eats
-                  </Link>                  
+                  </Link>
                 </h2>
                 <img
                   id="okee-logo"
@@ -59,14 +58,13 @@ function Projects() {
                 Twilio to send the restaurant an SMS notification of a new order
                 and notify the user that the order was received.
               </p>
-
             </div>
             <div id="proj-3">
-              <div className="proj-left"> 
+              <div className="proj-left">
                 <h2>
                   <Link>This Portfolio Page</Link>
                 </h2>
-                {/* IMAGE */}                
+                {/* IMAGE */}
               </div>
 
               <p id="proj-desc">
