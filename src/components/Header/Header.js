@@ -1,15 +1,3 @@
-// import "./Header.scss";
-
-// function Header() {
-//   return (
-//     <div className="sidebar-top">
-//       <h1>Gordon J.A. Letkeman</h1>
-//     </div>
-//   );
-// }
-
-// export default Header;
-
 import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -64,7 +52,7 @@ function ResponsiveAppBar() {
               <Button
                 key={page}
                 onClick={() => setTimeout(() => {navigate(`/${page}`, { replace: true })}, 250)}
-                sx={{ my: 2, color: "white", display: "block", marginRight: "20px" }}
+                sx={{ my: 2, color: "white", display: "block", marginRight: "20px", backgroundColor: "#e0e7f352" }}
               >
                 {page} 
               </Button>

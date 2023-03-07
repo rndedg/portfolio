@@ -3,10 +3,11 @@
 
 .projects-body {
   display: flex;
+  font-family: $font;
 
   #page-title {
     margin-top: 8%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
 
   .projects-info {
@@ -51,11 +52,8 @@
       
     }
     
-
-
     #proj-3 {
       align-self: center;
-      margin-bottom: 5em;
 
       .proj-left {
             width: 15em;
