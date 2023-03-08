@@ -15,7 +15,7 @@ function ResponsiveAppBar() {
   const navigate = useNavigate();
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: "#014c80" }}>
+    <AppBar position="static" sx={{ backgroundColor: "#014c80", boxShadow: "#26394D 0px 20px 15px -10px"}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
