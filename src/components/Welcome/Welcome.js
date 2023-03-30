@@ -1,7 +1,6 @@
 import Header from "../Header/Header";
 import Sidebar from "../Sidebar/Sidebar";
 import "./Welcome.scss"
-import 'animate.css';
 
 function Welcome() {
 

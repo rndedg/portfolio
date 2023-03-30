@@ -1,7 +1,6 @@
 import Header from "../Header/Header";
 import Sidebar from "../Sidebar/Sidebar";
 import "./About.scss";
-import "animate.css";
 
 function About() {
   return (
