@@ -11,8 +11,7 @@ import Contact from "./components/Contact/Contact";
 function App() {
   useLayoutEffect(() => {
     document.body.style.backgroundColor = "#c3ccdb";
-  });
-  
+  }, []);
 
   return (
     <Routes>

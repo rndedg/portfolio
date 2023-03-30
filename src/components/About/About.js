@@ -15,8 +15,8 @@ function About() {
             <div className="about-writeup">
               <p>
                 Gord grew up in a small town called Powell River on the West
-                Coast of B.C. After the local paper mill he was working at was
-                shut down, he took the opportunity to attend a Web Development
+                Coast of B.C. After the local paper mill spend 10 years working at was
+                shut down, he took this as an opportunity to attend a Web Development
                 Bootcamp through Lighthouse Labs.
               </p>
               <p>
@@ -24,6 +24,9 @@ function About() {
                 to learn more about how things worked in the background. He
                 hopes this new career direction will provide solid, long-term
                 stability for him and his family.
+              </p>
+              <p>
+                Gord loves to spend time with his wife and kids, playing guitar, and hanging out with friends and family playing boardgames and videogames. 
               </p>
             </div>
             <img
