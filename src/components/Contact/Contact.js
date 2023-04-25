@@ -1,7 +1,6 @@
 import { SvgIcon } from "@mui/material";
 import { Link } from "react-router-dom";
-import Header from "../Header/Header";
-import Sidebar from "../Sidebar/Sidebar";
+
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -10,10 +9,8 @@ import "./Contact.scss"
 function Contact() {
 
   return (
-    <div className="contact-main">
-      <Header />      
+    <div className="contact-main" id="Contact">
       <div className="contact-body">
-        <Sidebar className="contact-sidebar"/>
         <div className="contact-info">
           <h1 id="page-title">Contact</h1>
           <p>If you would like to get in touch with Gord, here are a few ways to do so:</p> 

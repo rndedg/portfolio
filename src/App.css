@@ -4,4 +4,8 @@ p {
 
 body {
   background-image: url("https://github.com/rndedg/portfolio/blob/master/assets/clean-textile.png?raw=true");
+  margin-left: 2em;
+  margin-right: 2em;
+  display: flex;
+  align-content: center;
 }

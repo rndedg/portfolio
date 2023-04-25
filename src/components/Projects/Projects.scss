@@ -4,6 +4,7 @@
 .projects-body {
   display: flex;
   font-family: $font;
+  margin-top: 5%;
 
   #page-title {
     margin-top: 8%;
@@ -22,7 +23,7 @@
 
     #proj-1 {
       align-self: center;
-      margin-bottom: 5em;
+      margin-bottom: 2em;
       
 
       .proj-left {
@@ -39,7 +40,7 @@
 
     #proj-2 {
       align-self: center;
-      margin-bottom: 5em;
+      margin-bottom: 2em;
 
       .proj-right {
         width: 15em;
@@ -63,10 +64,5 @@
       
     }
 
-  }
-
-  .projects-sidebar {
-    position: fixed;
-    left: 0;
   }
 }

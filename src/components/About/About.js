@@ -1,13 +1,9 @@
-import Header from "../Header/Header";
-import Sidebar from "../Sidebar/Sidebar";
 import "./About.scss";
 
 function About() {
   return (
-    <div className="about-main">
-      <Header />
+    <div className="about-main" id="About Me">
       <div className="about-body">
-        <Sidebar className="about-sidebar" />
         <div>
           <h1 id="about-title">About Gord</h1>
           <div className="about-info">

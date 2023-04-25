@@ -1,15 +1,10 @@
 import { Link } from "react-router-dom";
-import Header from "../Header/Header";
-import Sidebar from "../Sidebar/Sidebar";
 import "./Projects.scss";
 
 function Projects() {
   return (
-    <div className="projects-main">
-      <Header />
+    <div className="projects-main" id="Projects">
       <div className="projects-body">
-        <Sidebar />
-
         <div>
           <h1 id="page-title">Current and Past Projects</h1>
           <div className="projects-info">
@@ -64,7 +59,6 @@ function Projects() {
                 <h2>
                   <Link>This Portfolio Page</Link>
                 </h2>
-                {/* IMAGE */}
               </div>
 
               <p id="proj-desc">

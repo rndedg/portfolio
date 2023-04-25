@@ -4,6 +4,9 @@
 .about-body {
   display: flex;
   font-family: $font;
+  margin-top: 5%;
+  margin-left: 10%;
+  justify-content: space-around;
 
   #about-title {
     margin-top: 8%;
@@ -13,16 +16,15 @@
   .about-info {
     margin-top: 5%;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 
     #page-title {
       margin-bottom: 2em;
     }
 
     #gord-bass {
-      width: 25em;
-      height: 25em;
-      margin-left: 15em;
+      width: 20%;
+      margin-right: 10%;
     }
 
     .about-writeup {
@@ -30,14 +32,11 @@
       flex-direction: column;
 
       p {
-        width: 45em
+        margin-right: 10%;
+        margin-left: 10%;
       }      
     }
 
   }
 
-  .about-sidebar {
-    position: fixed;
-    left: 0;
-  }
 }
