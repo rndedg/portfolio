@@ -12,6 +12,10 @@ function Welcome() {
             <p>This will be an ever-evolving page to see what I have worked on and also a great way to connect with me. Feel free to take a closer look at my Past Projects or read up a bit about who I am and what makes me tick. I appreciate you stopping by, and hope you have a great day.</p>
 
             <p>Please use the top navigation to view more information on me, my projects (past and present) and my contact information.</p>
+
+            <a href="https://www.buymeacoffee.com/gjletkeman">
+              <img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" height="41" width="174" />
+            </a>
           </div>
           <img
           className="animate__animated animate__lightSpeedInRight"
